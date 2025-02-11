@@ -1,3 +1,5 @@
+
+
 import java.util.*;
 public class The_Legend_of_Freya_the_Frog {
     public static void main(String[] args) {
@@ -12,10 +14,11 @@ public class The_Legend_of_Freya_the_Frog {
           int xMoves=(x+k-1)/k;
           int yMoves=(y+k-1)/k;
           int ans=2*Math.max(xMoves,yMoves);
-          if(xMoves>yMoves){
+          if(x>y){
             ans--;
           }
           System.out.println(ans);
        }
 }
 }
+
