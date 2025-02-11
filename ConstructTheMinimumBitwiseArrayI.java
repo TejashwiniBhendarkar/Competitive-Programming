@@ -1,5 +1,7 @@
+import java.util.ArrayList;
+
 class Solution {
-    public int[] minBitwiseArray(List<Integer> nums) {
+    public int[] minBitwiseArray(ArrayList<Integer> nums) {
        int n=nums.size();
        int ans[]=new int[n];
        for(int i=0;i<n;i++){
